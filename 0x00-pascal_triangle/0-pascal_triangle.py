@@ -1,4 +1,14 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+"""
+Pascal triangle solution that takes a n argument
+and returns the nth row of the Pascal triangle.
+"""
 def pascal_triangle(n):
+    """
+    Pascal triangle solution that takes a n argument
+    and returns the nth row of the Pascal triangle.
+    """
     my_list = []
     if n > 0:
         my_list.append([1])
